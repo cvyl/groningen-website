@@ -11,6 +11,7 @@ export default function Index() {
     return (
         <div>
             <h1>Ideeën</h1>
+            <a href="http://" target="_blank" rel="noopener noreferrer"></a>
         </div>
     );
 }
