@@ -17,16 +17,17 @@ export default function Index() {
             // Add navigation here
             //logo gemeente groningen
 
-            <img className="h-8 w-ful" src="https://gemeente.groningen.nl/images/logo52efe18aec6855c4.svg" alt="Gemeente Groningen" />
+            <img className="h-8 w-15" src="https://gemeente.groningen.nl/images/logo52efe18aec6855c4.svg" alt="Gemeente Groningen" />
  
           }
         </div>
       </header>
       
-      <main className="container mx-auto py-8">
+      <main className="container mx-auto py-4">
         <section className="mb-8">
+        <img className="rounded-lg w-full" src="https://gemeente.groningen.nl/_next/image?url=http%3A%2F%2Fdvg-backend-httpd%2Fsites%2Fgroningen%2Ffiles%2Fstyles%2Fopen_online_17_4%2Fpublic%2F2022-07%2FMartinitoren%2520in%2520avondzon_0.jpg%3Fh%3D70452c41%26itok%3DPpvBJh4T&w=1920&q=85" alt="" />
           <div className="bg-white shadow-md rounded-lg p-6">
-            <img className="rounded-lg" src="https://gemeente.groningen.nl/_next/image?url=http%3A%2F%2Fdvg-backend-httpd%2Fsites%2Fgroningen%2Ffiles%2Fstyles%2Fopen_online_17_4%2Fpublic%2F2022-07%2FMartinitoren%2520in%2520avondzon_0.jpg%3Fh%3D70452c41%26itok%3DPpvBJh4T&w=1920&q=85" alt="" />
+            
             <h2 className="text-2xl font-semibold mb-4">Welcome to Groningen Klimaat Website</h2>
             <p>
               This is a sample website for the Groningen Klimaat project. This website is built using the Remix framework.
