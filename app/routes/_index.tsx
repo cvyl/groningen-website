@@ -23,12 +23,12 @@ export default function Index() {
           }
         </div>
       </header>
-      
+
       <main className="container mx-auto py-4">
         <section className="mb-8">
-        <img className="rounded-lg w-full" src="https://gemeente.groningen.nl/_next/image?url=http%3A%2F%2Fdvg-backend-httpd%2Fsites%2Fgroningen%2Ffiles%2Fstyles%2Fopen_online_17_4%2Fpublic%2F2022-07%2FMartinitoren%2520in%2520avondzon_0.jpg%3Fh%3D70452c41%26itok%3DPpvBJh4T&w=1920&q=85" alt="" />
+          <img className="rounded-lg w-full" src="https://gemeente.groningen.nl/_next/image?url=http%3A%2F%2Fdvg-backend-httpd%2Fsites%2Fgroningen%2Ffiles%2Fstyles%2Fopen_online_17_4%2Fpublic%2F2022-07%2FMartinitoren%2520in%2520avondzon_0.jpg%3Fh%3D70452c41%26itok%3DPpvBJh4T&w=1920&q=85" alt="" />
           <div className="bg-white shadow-md rounded-lg p-6">
-            
+
             <h2 className="text-2xl font-semibold mb-4">Welcome to Groningen Klimaat Website</h2>
             <p>
               This is a sample website for the Groningen Klimaat project. This website is built using the Remix framework.
@@ -36,12 +36,38 @@ export default function Index() {
           </div>
         </section>
 
-        <section className="mb-8">
+        <section className="mb-8 px-10 mx-auto">
+          <div className="bg-white shadow-md rounded-lg p-6">
+            <iframe title="Iframe" width='100%' height='600px' src='https://groningen.maps.arcgis.com/apps/Viewer/index.html?appid=d5096c2a23ef44cbaee43a3b60f285e8' frameBorder='0' scrolling='no'></iframe>
+            <h3 className="text-lg font-semibold mb-2">Wat is dit?</h3>
+            <p className="mb-4">
+              Dit is een heatmap van de stad Groningen. De heatmap laat zien waar de meeste warmte is in de stad.
+            </p>
+            <p className="mb-4">
+              Het hitte-eilandeffect of urban heat island effect (UHI) is het fenomeen dat de temperatuur in een stedelijk gebied gemiddeld hoger is dan in het omliggende landelijk gebied. De belangrijkste oorzaken van het UHI zijn de absorptie van zonlicht door de in de stad aanwezige donkere materialen en de relatief lage windsnelheden. Door het UHI worden problemen tijdens hittegolven, zoals hittestress, verergerd. Bouwkundige maatregelen en meer groen in de stad verminderen het UHI.
+            </p>
+
+          </div>
           <h2 className="text-2xl font-semibold mb-4">Welcome to Groningen Klimaat Website</h2>
           <p>
             This is a sample website for the Groningen Klimaat project. This website is built using the Remix framework.
           </p>
         </section>
+
+        <section className="mb-8 px-10 mx-auto">
+          <div className="bg-white shadow-md rounded-lg p-6">
+
+
+            <h1>Wat is de overheid nu aan het doen?</h1>
+            <p>later verder uitwerken</p>
+            <p>https://www.rijksoverheid.nl/onderwerpen/klimaatverandering</p>
+
+
+
+          </div>
+        </section>
+
+
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Climate Change Roadmap</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -49,7 +75,7 @@ export default function Index() {
               <h3 className="text-lg font-semibold mb-2">Reduce Carbon Emissions</h3>
               <div className="flex items-center justify-between">
                 <div className="text-gray-600">Progress:</div>
-                <div className="text-green-500 font-semibold">75%</div>
+                <div className="text-green-500 font-semibold">48%</div>
               </div>
               <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
                 <div className="w-3/4 h-full bg-green-500 rounded-full"></div>
@@ -59,7 +85,7 @@ export default function Index() {
               <h3 className="text-lg font-semibold mb-2">Renewable Energy Adoption</h3>
               <div className="flex items-center justify-between">
                 <div className="text-gray-600">Progress:</div>
-                <div className="text-green-500 font-semibold">60%</div>
+                <div className="text-green-500 font-semibold">62%</div>
               </div>
               <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
                 <div className="w-3/5 h-full bg-green-500 rounded-full"></div>
@@ -69,7 +95,7 @@ export default function Index() {
               <h3 className="text-lg font-semibold mb-2">Sustainable Transportation</h3>
               <div className="flex items-center justify-between">
                 <div className="text-gray-600">Progress:</div>
-                <div className="text-green-500 font-semibold">50%</div>
+                <div className="text-green-500 font-semibold">47%</div>
               </div>
               <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
                 <div className="w-1/2 h-full bg-green-500 rounded-full"></div>
