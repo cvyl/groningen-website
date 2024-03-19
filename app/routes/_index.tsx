@@ -17,8 +17,8 @@ export default function Index() {
             // Add navigation here
             //logo gemeente groningen
 
-            <img className="h-8 w-15" src="https://gemeente.groningen.nl/images/logo52efe18aec6855c4.svg" alt="Gemeente Groningen" />
- 
+            // <img className="h-8 w-15" src="https://gemeente.groningen.nl/images/logo52efe18aec6855c4.svg" alt="Gemeente Groningen" />
+            <img className="h-8 w-15" src="../public/logo11.png" alt="Gemeente Groningen" />
           }
         </div>
       </header>
