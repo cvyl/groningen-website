@@ -26,8 +26,46 @@ export default function Index() {
           </h2>
         </a>
       </header>
-    </div>
+
+
+      {/* <figure className="relative max-w-sm transition-all duration-300 cursor-pointer">
+        <a href="#">
+          <img className="rounded-lg" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JEBPIeV7s3lZ9QJ7DyfS4AHaEK%26pid%3DApi&f=1&ipt=de31728e4a63e4f6663124ae18fdde919cb268006de9cca4ce9b7193c8ba9ddf&ipo=images" alt=" description" />
+        </a>
+        <figcaption className="absolute px-4 text-lg text-white bottom-6">
+          <p>Versterk dijken en verbreed rivieren om overstromingen te voorkomen.</p>
+        </figcaption>
+      </figure>
+      <figure className="relative max-w-sm transition-all duration-300 cursor-pointer">
+        <a href="#">
+          <img className="rounded-lg" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faannemer-gigant-nl.imgix.net%2Fwp-content%2Fuploads%2F2019%2F09%2Fzonnepanelen-plaatsen-1.jpg%3Fauto%3Dformat%252Ccompress%26w%3D1024%26h%3D1024%26dpr%3D3&f=1&nofb=1&ipt=3c33ac7a5d56b461994d9d141e892651679dbc37de77f7ac22881ed77c03d0b2&ipo=images" alt=" description" />
+        </a>
+        <figcaption className="absolute px-4 text-lg text-white bottom-6">
+          <p>We zijn met subsidies aan het zorgen dat mensen meer zonnepanelen aanleggen</p>
+        </figcaption>
+      </figure>
+
+
+      <figure className="relative max-w-sm transition-all duration-300 cursor-pointer">
+        <a href="#">
+          <img className="h-auto max-w-lg ms-auto rounded-lg" src="https://fotobankna.nl/wp-content/uploads/vg096denhaag2014-480x360-81.jpg" alt=" description" />
+        </a>
+        <figcaption className="absolute px-4 text-lg text-white bottom-6">
+          <p>Wegen onder parken maken</p>
+        </figcaption>
+      </figure>
+
+      <figure className="relative max-w-sm transition-all duration-300 cursor-pointer">
+        <a href="#">
+          <img className="h-auto max-w-lg ms-auto rounded-lg" src="https://www.teng-groep.nl/wp-content/uploads/20210521_TenG_Groendak-Doorn-19-1024x683.jpg" alt=" description" />
+        </a>
+        <figcaption className="absolute px-4 text-lg text-white bottom-6">
+          <p>Implementeer groene infrastructuur, zoals groendaken, groene gevels en stadsbossen, om de stad te vergroenen en de leefbaarheid te verbeteren.</p>
+        </figcaption>
+      </figure> */}
+    </div >
   );
 }
 // onder de punt bomen/groen en daar de mensen laten roken
 // betonnen plaat vervanggen met iets groen/beter voor het weer en minder hitte
+//https://flowbite.com/docs/typography/images/

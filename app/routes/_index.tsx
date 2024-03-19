@@ -29,10 +29,10 @@ export default function Index() {
           <img className="rounded-lg w-full" src="https://gemeente.groningen.nl/_next/image?url=http%3A%2F%2Fdvg-backend-httpd%2Fsites%2Fgroningen%2Ffiles%2Fstyles%2Fopen_online_17_4%2Fpublic%2F2022-07%2FMartinitoren%2520in%2520avondzon_0.jpg%3Fh%3D70452c41%26itok%3DPpvBJh4T&w=1920&q=85" alt="" />
           <div className="bg-white shadow-md rounded-lg p-6">
 
-            <h2 className="text-2xl font-semibold mb-4">Welcome to Groningen Klimaat Website</h2>
-            <p>
+            <h2 className="text-2xl font-semibold mb-4">Welkom bij de Groningen Klimaat Website</h2>
+            {/* <p>
               This is a sample website for the Groningen Klimaat project. This website is built using the Remix framework.
-            </p>
+            </p> */}
           </div>
         </section>
 
@@ -48,121 +48,146 @@ export default function Index() {
             </p>
 
           </div>
-          <h2 className="text-2xl font-semibold mb-4">Welcome to Groningen Klimaat Website</h2>
+          {/* <h2 className="text-2xl font-semibold mb-4">Welcome to Groningen Klimaat Website</h2>
           <p>
             This is a sample website for the Groningen Klimaat project. This website is built using the Remix framework.
-          </p>
+          </p> */}
         </section>
+
+
+
 
         <section className="mb-8 px-10 mx-auto">
           <div className="bg-white shadow-md rounded-lg p-6">
-
-
             <h1>Wat is de overheid nu aan het doen?</h1>
-
-
-
-
+            <h2 className="text-xl font-semibold mb-2">Klimaatadaptatie:</h2>
+            <div className="mt-1 grid grid-cols-1 gap-6 md:grid-cols-4 justify-center">
+              <div className="bg-[#f4f4f4] border border-gray-detailBorder rounded-lg overflow-hidden">
+                <figure className="relative">
+                  <img className="h-auto w-full rounded-lg" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JEBPIeV7s3lZ9QJ7DyfS4AHaEK%26pid%3DApi&f=1&ipt=de31728e4a63e4f6663124ae18fdde919cb268006de9cca4ce9b7193c8ba9ddf&ipo=images" alt="description" />
+                  <figcaption className="absolute bottom-0 left-0 right-0 bg-blue-500 text-white p-4">
+                    Versterk dijken en verbreed rivieren om overstromingen te voorkomen.
+                  </figcaption>
+                </figure>
+              </div>
+              <div className="bg-[#f4f4f4] border border-gray-detailBorder rounded-lg overflow-hidden">
+                <figure className="relative">
+                  <img className="h-auto w-full rounded-lg" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faannemer-gigant-nl.imgix.net%2Fwp-content%2Fuploads%2F2019%2F09%2Fzonnepanelen-plaatsen-1.jpg%3Fauto%3Dformat%252Ccompress%26w%3D1024%26h%3D1024%26dpr%3D3&f=1&nofb=1&ipt=3c33ac7a5d56b461994d9d141e892651679dbc37de77f7ac22881ed77c03d0b2&ipo=images" alt="description" />
+                  <figcaption className="absolute bottom-0 left-0 right-0 bg-blue-500 text-white p-4">
+                    We zijn met subsidies aan het zorgen dat mensen meer zonnepanelen aanleggen.
+                  </figcaption>
+                </figure>
+              </div>
+              <div className="bg-[#f4f4f4] border border-gray-detailBorder rounded-lg overflow-hidden">
+                <figure className="relative">
+                  <img className="h-auto w-full rounded-lg" src="https://fotobankna.nl/wp-content/uploads/vg096denhaag2014-480x360-81.jpg" alt="description" />
+                  <figcaption className="absolute bottom-0 left-0 right-0 bg-blue-500 text-white p-4">
+                    Wegen onder parken maken.
+                  </figcaption>
+                </figure>
+              </div>
+              <div className="bg-[#f4f4f4] border border-gray-detailBorder rounded-lg overflow-hidden">
+                <figure className="relative">
+                  <img className="h-auto w-full rounded-lg" src="https://www.teng-groep.nl/wp-content/uploads/20210521_TenG_Groendak-Doorn-19-1024x683.jpg" alt="description" />
+                  <figcaption className="absolute bottom-0 left-0 right-0 bg-blue-500 text-white p-4">
+                    Implementeer groene infrastructuur, zoals groendaken, groene gevels en stadsbossen, om de stad te vergroenen en de leefbaarheid te verbeteren.
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
         </section>
+
+
+
+
         <section className="mb-8 px-10 mx-auto">
           <div className="bg-white shadow-md rounded-lg p-6">
 
 
             <h1>Wat kan nog meer gedaan worden?</h1>
-            <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-              <h1 className="text-2xl font-semibold mb-4">Creating a Greener Groningen: Our Commitment to Climate Action</h1>
-              <p className="text-gray-700 mb-6">Welcome to our initiative for a more sustainable and environmentally conscious Groningen! As a community, we recognize the urgent need to address climate change and protect our beautiful city. In this article, we'll explore practical steps the government can take to promote green living, enhance resilience, and reduce our carbon footprint.</p>
 
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold mb-2">Klimaatadaptatie (Climate Adaptation)</h2>
-                <ul className="list-disc list-inside text-gray-700">
-                  <li>Strengthening dikes and riverbanks to prevent flooding during heavy rainfall.</li>
-                  <li>Implementing green infrastructure, such as green roofs and vertical gardens, to absorb excess water and reduce runoff.</li>
-                  <li>Creating shaded areas and green spaces to mitigate extreme heat.</li>
-                  <li>Planting more trees and establishing urban forests to cool down neighborhoods.</li>
-                </ul>
-              </section>
+            <h2 className="text-xl font-semibold mb-2">Duurzame energie en energiebesparing:</h2>
+            <ul className="list-disc pl-6 mb-4">
+              <li>Investeer in duurzame energiebronnen zoals zonne- en windenergie.</li>
+              <li>Stimuleer energiebesparing in huishoudens en bedrijven.</li>
+              <li>Ondersteun lokale initiatieven voor groene energieopwekking.</li>
+            </ul>
+            <h2 className="text-xl font-semibold mb-2">Vergroening van steden:</h2>
+            <ul className="list-disc pl-6 mb-4">
+              <li>Leg meer groene ruimtes aan, zoals parken en plantsoenen.</li>
+              <li>Integreer groen in stedelijke planning en bouwvoorschriften.</li>
+              <li>Betrek burgers bij het vergroenen van hun eigen omgeving.</li>
+            </ul>
+            <h2 className="text-xl font-semibold mb-2">Klimaatmitigatie:</h2>
+            <ul className="list-disc pl-6 mb-4">
+              <li>Verminder de uitstoot van broeikasgassen door over te stappen op duurzame energiebronnen en energie-efficiëntie te bevorderen.</li>
+              <li>Onderzoek innovatieve oplossingen, zoals groene waterstof, om de energietransitie te versnellen.</li>
+            </ul>
+            <h2 className="text-xl font-semibold mb-2">Bewustwording en educatie:</h2>
+            <ul className="list-disc pl-6 mb-4">
+              <li>Informeer burgers en bedrijven over klimaatverandering en hoe ze kunnen bijdragen aan een groenere toekomst.</li>
+              <li>Organiseer workshops, lezingen en campagnes om bewustwording te vergroten.</li>
+            </ul>
 
-
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold mb-2">Duurzame Energie en Energiebesparing (Sustainable Energy and Energy Efficiency)</h2>
-                <ul className="list-disc list-inside text-gray-700">
-                  <li>Investing in solar panels and wind turbines to generate clean energy.</li>
-                  <li>Supporting local initiatives for community-based renewable energy projects.</li>
-                  <li>Encouraging households and businesses to adopt energy-efficient practices.</li>
-                  <li>Promoting smart grid technologies and energy-saving appliances.</li>
-                </ul>
-              </section>
-
-
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold mb-2">Vergroening van Steden (Urban Greening)</h2>
-                <ul className="list-disc list-inside text-gray-700">
-                  <li>Expanding existing parks and creating new green areas for recreation and biodiversity.</li>
-                  <li>Integrating green design principles into urban planning and architecture.</li>
-                  <li>Engaging citizens in tree-planting drives and community gardens.</li>
-                  <li>Encouraging rooftop gardens and balcony planters.</li>
-                </ul>
-              </section>
-
-
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold mb-2">Klimaatmitigatie (Climate Mitigation)</h2>
-                <ul className="list-disc list-inside text-gray-700">
-                  <li>Transitioning to electric vehicles and promoting public transportation.</li>
-                  <li>Supporting research on innovative solutions like green hydrogen.</li>
-                </ul>
-              </section>
-
-              <section>
-                <h2 className="text-xl font-semibold mb-2">Bewustwording en Educatie (Awareness and Education)</h2>
-                <ul className="list-disc list-inside text-gray-700">
-                  <li>Hosting workshops, seminars, and awareness campaigns on climate change.</li>
-                  <li>Educating citizens about sustainable practices and their impact.</li>
-                </ul>
-              </section>
-
-
-              <p className="text-gray-700 mt-6">Together, we can transform Groningen into a resilient, green city—one that leads by example in the fight against climate change. Let's embrace sustainability, protect our environment, and secure a brighter future for generations to come.</p>
-            </div>
 
           </div>
         </section>
 
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Climate Change Roadmap</h2>
+          <h2 className="text-2xl font-semibold mb-4">Climate Change Roadmap 2023 - 2024</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white shadow-md rounded-lg p-6">
-              <h3 className="text-lg font-semibold mb-2">Reduce Carbon Emissions</h3>
+              <h3 className="text-lg font-semibold mb-2">Verminderde CO2-uitstoot</h3>
               <div className="flex items-center justify-between">
-                <div className="text-gray-600">Progress:</div>
-                <div className="text-green-500 font-semibold">48%</div>
+                <div className="text-gray-600">Progress 2023:</div>
+                <div className="text-red-500 font-semibold">48%</div>
+              </div>
+              <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
+                <div className="w-1/2 h-full bg-red-500 rounded-full"></div>
+              </div>
+              <div className="flex items-center justify-between">
+                <div className="text-gray-600">Progress 2024:</div>
+                <div className="text-green-500 font-semibold">40%</div>
+              </div>
+              <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
+                <div className="w-2/5 h-full bg-green-500 rounded-full"></div>
+              </div>
+            </div>
+            <div className="bg-white shadow-md rounded-lg p-6">
+              <h3 className="text-lg font-semibold mb-2">Hernieuwbare energie-adaptatie</h3>
+              <div className="flex items-center justify-between">
+                <div className="text-gray-600">Progress 2023:</div>
+                <div className="text-red-500 font-semibold">62%</div>
+              </div>
+              <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
+                <div className="w-3/5 h-full bg-red-500 rounded-full"></div>
+              </div>
+              <div className="flex items-center justify-between">
+                <div className="text-gray-600">Progress 2024:</div>
+                <div className="text-green-500 font-semibold">75%</div>
               </div>
               <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
                 <div className="w-3/4 h-full bg-green-500 rounded-full"></div>
               </div>
             </div>
             <div className="bg-white shadow-md rounded-lg p-6">
-              <h3 className="text-lg font-semibold mb-2">Renewable Energy Adoption</h3>
+              <h3 className="text-lg font-semibold mb-2">Duurzame transport</h3>
               <div className="flex items-center justify-between">
-                <div className="text-gray-600">Progress:</div>
+                <div className="text-gray-600">Progress 2023:</div>
+                <div className="text-red-500 font-semibold">47%</div>
+              </div>
+              <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
+                <div className="w-1/2 h-full bg-red-500 rounded-full"></div>
+              </div>
+              <div className="flex items-center justify-between">
+                <div className="text-gray-600">Progress 2024:</div>
                 <div className="text-green-500 font-semibold">62%</div>
               </div>
               <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
                 <div className="w-3/5 h-full bg-green-500 rounded-full"></div>
-              </div>
-            </div>
-            <div className="bg-white shadow-md rounded-lg p-6">
-              <h3 className="text-lg font-semibold mb-2">Sustainable Transportation</h3>
-              <div className="flex items-center justify-between">
-                <div className="text-gray-600">Progress:</div>
-                <div className="text-green-500 font-semibold">47%</div>
-              </div>
-              <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
-                <div className="w-1/2 h-full bg-green-500 rounded-full"></div>
               </div>
             </div>
           </div>
@@ -174,6 +199,6 @@ export default function Index() {
           &copy; {new Date().getFullYear()} Groningen Klimaat Website. All rights reserved.
         </div>
       </footer>
-    </div>
+    </div >
   );
 }
