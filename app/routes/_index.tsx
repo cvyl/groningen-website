@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import logooo from "../../public/logo11.png";
 
 export const meta: MetaFunction = () => {
   return [
@@ -18,7 +19,7 @@ export default function Index() {
             //logo gemeente groningen
 
             // <img className="h-8 w-15" src="https://gemeente.groningen.nl/images/logo52efe18aec6855c4.svg" alt="Gemeente Groningen" />
-            <img className="h-8 w-15" src="../public/logo11.png" alt="Gemeente Groningen" />
+            <img className="h-8 w-15" src={logooo} alt="Gemeente Groningen" />
           }
         </div>
       </header>
