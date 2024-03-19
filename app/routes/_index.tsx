@@ -26,14 +26,9 @@ export default function Index() {
 
       <main className="container mx-auto py-4">
         <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Welkom bij de Groningen Klimaat Website</h2>
           <img className="rounded-lg w-full" src="https://gemeente.groningen.nl/_next/image?url=http%3A%2F%2Fdvg-backend-httpd%2Fsites%2Fgroningen%2Ffiles%2Fstyles%2Fopen_online_17_4%2Fpublic%2F2022-07%2FMartinitoren%2520in%2520avondzon_0.jpg%3Fh%3D70452c41%26itok%3DPpvBJh4T&w=1920&q=85" alt="" />
-          <div className="bg-white shadow-md rounded-lg p-6">
 
-            <h2 className="text-2xl font-semibold mb-4">Welkom bij de Groningen Klimaat Website</h2>
-            {/* <p>
-              This is a sample website for the Groningen Klimaat project. This website is built using the Remix framework.
-            </p> */}
-          </div>
         </section>
 
         <section className="mb-8 px-10 mx-auto">
@@ -122,7 +117,7 @@ export default function Index() {
               </div>
               {/* Fifth bullet point */}
               <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> </h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> </h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">Organiseer workshops, lezingen en campagnes om bewustwording te vergroten.</p>
               </div>
             </div>
