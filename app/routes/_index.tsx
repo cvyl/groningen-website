@@ -59,8 +59,18 @@ export default function Index() {
 
 
             <h1>Wat is de overheid nu aan het doen?</h1>
-            <p>later verder uitwerken</p>
-            <p>https://www.rijksoverheid.nl/onderwerpen/klimaatverandering</p>
+
+
+
+
+          </div>
+        </section>
+        <section className="mb-8 px-10 mx-auto">
+          <div className="bg-white shadow-md rounded-lg p-6">
+
+
+            <h1>Wat kan nog meer gedaan worden?</h1>
+            <p>Er kunnen meer bomen worden geplant en</p>
 
 
 
