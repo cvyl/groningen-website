@@ -70,9 +70,63 @@ export default function Index() {
 
 
             <h1>Wat kan nog meer gedaan worden?</h1>
-            <p>Er kunnen meer bomen worden geplant en</p>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+              <h1 className="text-2xl font-semibold mb-4">Creating a Greener Groningen: Our Commitment to Climate Action</h1>
+              <p className="text-gray-700 mb-6">Welcome to our initiative for a more sustainable and environmentally conscious Groningen! As a community, we recognize the urgent need to address climate change and protect our beautiful city. In this article, we'll explore practical steps the government can take to promote green living, enhance resilience, and reduce our carbon footprint.</p>
 
 
+              <section className="mb-8">
+                <h2 className="text-xl font-semibold mb-2">Klimaatadaptatie (Climate Adaptation)</h2>
+                <ul className="list-disc list-inside text-gray-700">
+                  <li>Strengthening dikes and riverbanks to prevent flooding during heavy rainfall.</li>
+                  <li>Implementing green infrastructure, such as green roofs and vertical gardens, to absorb excess water and reduce runoff.</li>
+                  <li>Creating shaded areas and green spaces to mitigate extreme heat.</li>
+                  <li>Planting more trees and establishing urban forests to cool down neighborhoods.</li>
+                </ul>
+              </section>
+
+
+              <section className="mb-8">
+                <h2 className="text-xl font-semibold mb-2">Duurzame Energie en Energiebesparing (Sustainable Energy and Energy Efficiency)</h2>
+                <ul className="list-disc list-inside text-gray-700">
+                  <li>Investing in solar panels and wind turbines to generate clean energy.</li>
+                  <li>Supporting local initiatives for community-based renewable energy projects.</li>
+                  <li>Encouraging households and businesses to adopt energy-efficient practices.</li>
+                  <li>Promoting smart grid technologies and energy-saving appliances.</li>
+                </ul>
+              </section>
+
+
+              <section className="mb-8">
+                <h2 className="text-xl font-semibold mb-2">Vergroening van Steden (Urban Greening)</h2>
+                <ul className="list-disc list-inside text-gray-700">
+                  <li>Expanding existing parks and creating new green areas for recreation and biodiversity.</li>
+                  <li>Integrating green design principles into urban planning and architecture.</li>
+                  <li>Engaging citizens in tree-planting drives and community gardens.</li>
+                  <li>Encouraging rooftop gardens and balcony planters.</li>
+                </ul>
+              </section>
+
+
+              <section className="mb-8">
+                <h2 className="text-xl font-semibold mb-2">Klimaatmitigatie (Climate Mitigation)</h2>
+                <ul className="list-disc list-inside text-gray-700">
+                  <li>Transitioning to electric vehicles and promoting public transportation.</li>
+                  <li>Supporting research on innovative solutions like green hydrogen.</li>
+                </ul>
+              </section>
+
+              <section>
+                <h2 className="text-xl font-semibold mb-2">Bewustwording en Educatie (Awareness and Education)</h2>
+                <ul className="list-disc list-inside text-gray-700">
+                  <li>Hosting workshops, seminars, and awareness campaigns on climate change.</li>
+                  <li>Educating citizens about sustainable practices and their impact.</li>
+                </ul>
+              </section>
+
+
+              <p className="text-gray-700 mt-6">Together, we can transform Groningen into a resilient, green city—one that leads by example in the fight against climate change. Let's embrace sustainability, protect our environment, and secure a brighter future for generations to come.</p>
+            </div>
 
           </div>
         </section>
